@@ -1,7 +1,7 @@
 class Solution {
 public:
     void GenerateParenthes(int open,int close,int n,string s,vector<string>&v){
-        if(open==close&&open+close==n*2){
+        if(open==close && open+close==n*2){
             v.push_back(s);
             return;
         }
